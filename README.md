@@ -20,40 +20,7 @@ A single-file HTML5 Canvas shooting gallery game: shoot moving carnival prizes, 
 
 ### 快速开始
 
-把游戏 HTML 文件放进仓库根目录，并建议改名为：
-
-```text
-index.html
-```
-
-然后直接用浏览器打开，或者启动一个本地静态服务器：
-
-```bash
-python -m http.server 8000
-```
-
-访问：
-
-```text
-http://localhost:8000
-```
-
-### 推荐仓库结构
-
-```text
-.
-├── index.html
-├── README.md
-└── GAME_GUIDE.md
-```
-
-### GitHub Pages 发布
-
-1. 把 `index.html`、`README.md`、`GAME_GUIDE.md` 提交到 GitHub 仓库。
-2. 打开仓库的 **Settings → Pages**。
-3. Source 选择 **Deploy from a branch**。
-4. Branch 选择 `main`，目录选择 `/root`。
-5. 保存后等待 GitHub Pages 构建完成。
+把游戏 HTML 文件直接下载下来，然后拖入浏览器即可
 
 ### 基本操作
 
@@ -90,40 +57,7 @@ http://localhost:8000
 
 ### Quick Start
 
-Place the game HTML file in the repository root and preferably rename it to:
-
-```text
-index.html
-```
-
-Open it directly in a browser, or run a local static server:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
-
-### Recommended Repository Structure
-
-```text
-.
-├── index.html
-├── README.md
-└── GAME_GUIDE.md
-```
-
-### Deploying with GitHub Pages
-
-1. Commit `index.html`, `README.md`, and `GAME_GUIDE.md` to the GitHub repository.
-2. Open **Settings → Pages**.
-3. Set Source to **Deploy from a branch**.
-4. Select the `main` branch and `/root` folder.
-5. Save and wait for GitHub Pages to finish deploying.
+download raw HTML file and drop it into your explore
 
 ### Controls
 
